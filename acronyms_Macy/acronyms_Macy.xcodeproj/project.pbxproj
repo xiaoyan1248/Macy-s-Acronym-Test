@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D359083F1CBAAC170033FBAD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D35908331CBAAC170033FBAD /* AFHTTPSessionManager.m */; };
+		D35908401CBAAC170033FBAD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D35908361CBAAC170033FBAD /* AFNetworkReachabilityManager.m */; };
+		D35908411CBAAC170033FBAD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35908381CBAAC170033FBAD /* AFSecurityPolicy.m */; };
+		D35908421CBAAC170033FBAD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D359083A1CBAAC170033FBAD /* AFURLRequestSerialization.m */; };
+		D35908431CBAAC170033FBAD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D359083C1CBAAC170033FBAD /* AFURLResponseSerialization.m */; };
+		D35908441CBAAC170033FBAD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D359083E1CBAAC170033FBAD /* AFURLSessionManager.m */; };
+		D35C9BE21CB8691C005765DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C9BE11CB8691C005765DB /* main.m */; };
+		D35C9BE51CB8691C005765DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C9BE41CB8691C005765DB /* AppDelegate.m */; };
+		D35C9BEB1CB8691C005765DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C9BE91CB8691C005765DB /* Main.storyboard */; };
+		D35C9BED1CB8691C005765DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35C9BEC1CB8691C005765DB /* Assets.xcassets */; };
+		D35C9BF01CB8691C005765DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C9BEE1CB8691C005765DB /* LaunchScreen.storyboard */; };
+		D35C9BFB1CB8691C005765DB /* acronyms_MacyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C9BFA1CB8691C005765DB /* acronyms_MacyTests.m */; };
+		D35C9CEC1CBA2AC0005765DB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C9CEA1CBA2AC0005765DB /* MBProgressHUD.m */; };
+		D35C9CF11CBA2B75005765DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C9CF01CBA2B75005765DB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35C9BF71CB8691C005765DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35C9BD51CB8691C005765DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35C9BDC1CB8691C005765DB;
+			remoteInfo = acronyms_Macy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D35908321CBAAC170033FBAD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D35908331CBAAC170033FBAD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D35908341CBAAC170033FBAD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D35908351CBAAC170033FBAD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D35908361CBAAC170033FBAD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D35908371CBAAC170033FBAD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D35908381CBAAC170033FBAD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D35908391CBAAC170033FBAD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D359083A1CBAAC170033FBAD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D359083B1CBAAC170033FBAD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D359083C1CBAAC170033FBAD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D359083D1CBAAC170033FBAD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		D359083E1CBAAC170033FBAD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D35C9BDD1CB8691C005765DB /* acronyms_Macy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acronyms_Macy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35C9BE11CB8691C005765DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35C9BE31CB8691C005765DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D35C9BE41CB8691C005765DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35C9BEA1CB8691C005765DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35C9BEC1CB8691C005765DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35C9BEF1CB8691C005765DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35C9BF11CB8691C005765DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35C9BF61CB8691C005765DB /* acronyms_MacyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acronyms_MacyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35C9BFA1CB8691C005765DB /* acronyms_MacyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acronyms_MacyTests.m; sourceTree = "<group>"; };
+		D35C9BFC1CB8691C005765DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35C9CEA1CBA2AC0005765DB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
+		D35C9CEB1CBA2AC0005765DB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = "<group>"; };
+		D35C9CEF1CBA2B75005765DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35C9CF01CBA2B75005765DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35C9BDA1CB8691C005765DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35C9BF31CB8691C005765DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35908311CBAAC170033FBAD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D35908321CBAAC170033FBAD /* AFHTTPSessionManager.h */,
+				D35908331CBAAC170033FBAD /* AFHTTPSessionManager.m */,
+				D35908341CBAAC170033FBAD /* AFNetworking.h */,
+				D35908351CBAAC170033FBAD /* AFNetworkReachabilityManager.h */,
+				D35908361CBAAC170033FBAD /* AFNetworkReachabilityManager.m */,
+				D35908371CBAAC170033FBAD /* AFSecurityPolicy.h */,
+				D35908381CBAAC170033FBAD /* AFSecurityPolicy.m */,
+				D35908391CBAAC170033FBAD /* AFURLRequestSerialization.h */,
+				D359083A1CBAAC170033FBAD /* AFURLRequestSerialization.m */,
+				D359083B1CBAAC170033FBAD /* AFURLResponseSerialization.h */,
+				D359083C1CBAAC170033FBAD /* AFURLResponseSerialization.m */,
+				D359083D1CBAAC170033FBAD /* AFURLSessionManager.h */,
+				D359083E1CBAAC170033FBAD /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D35C9BD41CB8691C005765DB = {
+			isa = PBXGroup;
+			children = (
+				D35C9BDF1CB8691C005765DB /* acronyms_Macy */,
+				D35C9BF91CB8691C005765DB /* acronyms_MacyTests */,
+				D35C9BDE1CB8691C005765DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35C9BDE1CB8691C005765DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35C9BDD1CB8691C005765DB /* acronyms_Macy.app */,
+				D35C9BF61CB8691C005765DB /* acronyms_MacyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35C9BDF1CB8691C005765DB /* acronyms_Macy */ = {
+			isa = PBXGroup;
+			children = (
+				D35908311CBAAC170033FBAD /* AFNetworking */,
+				D35C9CEA1CBA2AC0005765DB /* MBProgressHUD.m */,
+				D35C9CEB1CBA2AC0005765DB /* MBProgressHUD.h */,
+				D35C9BE31CB8691C005765DB /* AppDelegate.h */,
+				D35C9BE41CB8691C005765DB /* AppDelegate.m */,
+				D35C9CEF1CBA2B75005765DB /* ViewController.h */,
+				D35C9CF01CBA2B75005765DB /* ViewController.m */,
+				D35C9BE91CB8691C005765DB /* Main.storyboard */,
+				D35C9BEC1CB8691C005765DB /* Assets.xcassets */,
+				D35C9BEE1CB8691C005765DB /* LaunchScreen.storyboard */,
+				D35C9BF11CB8691C005765DB /* Info.plist */,
+				D35C9BE01CB8691C005765DB /* Supporting Files */,
+			);
+			path = acronyms_Macy;
+			sourceTree = "<group>";
+		};
+		D35C9BE01CB8691C005765DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35C9BE11CB8691C005765DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D35C9BF91CB8691C005765DB /* acronyms_MacyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35C9BFA1CB8691C005765DB /* acronyms_MacyTests.m */,
+				D35C9BFC1CB8691C005765DB /* Info.plist */,
+			);
+			path = acronyms_MacyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35C9BDC1CB8691C005765DB /* acronyms_Macy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35C9BFF1CB8691C005765DB /* Build configuration list for PBXNativeTarget "acronyms_Macy" */;
+			buildPhases = (
+				D35C9BD91CB8691C005765DB /* Sources */,
+				D35C9BDA1CB8691C005765DB /* Frameworks */,
+				D35C9BDB1CB8691C005765DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acronyms_Macy;
+			productName = acronyms_Macy;
+			productReference = D35C9BDD1CB8691C005765DB /* acronyms_Macy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35C9BF51CB8691C005765DB /* acronyms_MacyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35C9C021CB8691C005765DB /* Build configuration list for PBXNativeTarget "acronyms_MacyTests" */;
+			buildPhases = (
+				D35C9BF21CB8691C005765DB /* Sources */,
+				D35C9BF31CB8691C005765DB /* Frameworks */,
+				D35C9BF41CB8691C005765DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35C9BF81CB8691C005765DB /* PBXTargetDependency */,
+			);
+			name = acronyms_MacyTests;
+			productName = acronyms_MacyTests;
+			productReference = D35C9BF61CB8691C005765DB /* acronyms_MacyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35C9BD51CB8691C005765DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ShawnZhao;
+				TargetAttributes = {
+					D35C9BDC1CB8691C005765DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D35C9BF51CB8691C005765DB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D35C9BDC1CB8691C005765DB;
+					};
+				};
+			};
+			buildConfigurationList = D35C9BD81CB8691C005765DB /* Build configuration list for PBXProject "acronyms_Macy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35C9BD41CB8691C005765DB;
+			productRefGroup = D35C9BDE1CB8691C005765DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35C9BDC1CB8691C005765DB /* acronyms_Macy */,
+				D35C9BF51CB8691C005765DB /* acronyms_MacyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35C9BDB1CB8691C005765DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35C9BF01CB8691C005765DB /* LaunchScreen.storyboard in Resources */,
+				D35C9BED1CB8691C005765DB /* Assets.xcassets in Resources */,
+				D35C9BEB1CB8691C005765DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35C9BF41CB8691C005765DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35C9BD91CB8691C005765DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35908421CBAAC170033FBAD /* AFURLRequestSerialization.m in Sources */,
+				D35C9CF11CBA2B75005765DB /* ViewController.m in Sources */,
+				D35C9BE51CB8691C005765DB /* AppDelegate.m in Sources */,
+				D35908441CBAAC170033FBAD /* AFURLSessionManager.m in Sources */,
+				D35908431CBAAC170033FBAD /* AFURLResponseSerialization.m in Sources */,
+				D35908401CBAAC170033FBAD /* AFNetworkReachabilityManager.m in Sources */,
+				D35908411CBAAC170033FBAD /* AFSecurityPolicy.m in Sources */,
+				D359083F1CBAAC170033FBAD /* AFHTTPSessionManager.m in Sources */,
+				D35C9BE21CB8691C005765DB /* main.m in Sources */,
+				D35C9CEC1CBA2AC0005765DB /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35C9BF21CB8691C005765DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35C9BFB1CB8691C005765DB /* acronyms_MacyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35C9BF81CB8691C005765DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35C9BDC1CB8691C005765DB /* acronyms_Macy */;
+			targetProxy = D35C9BF71CB8691C005765DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35C9BE91CB8691C005765DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35C9BEA1CB8691C005765DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35C9BEE1CB8691C005765DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35C9BEF1CB8691C005765DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35C9BFD1CB8691C005765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35C9BFE1CB8691C005765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35C9C001CB8691C005765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = acronyms_Macy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RJT.acronyms-Macy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D35C9C011CB8691C005765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = acronyms_Macy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RJT.acronyms-Macy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D35C9C031CB8691C005765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = acronyms_MacyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RJT.acronyms-MacyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acronyms_Macy.app/acronyms_Macy";
+			};
+			name = Debug;
+		};
+		D35C9C041CB8691C005765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = acronyms_MacyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RJT.acronyms-MacyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acronyms_Macy.app/acronyms_Macy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35C9BD81CB8691C005765DB /* Build configuration list for PBXProject "acronyms_Macy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35C9BFD1CB8691C005765DB /* Debug */,
+				D35C9BFE1CB8691C005765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35C9BFF1CB8691C005765DB /* Build configuration list for PBXNativeTarget "acronyms_Macy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35C9C001CB8691C005765DB /* Debug */,
+				D35C9C011CB8691C005765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35C9C021CB8691C005765DB /* Build configuration list for PBXNativeTarget "acronyms_MacyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35C9C031CB8691C005765DB /* Debug */,
+				D35C9C041CB8691C005765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35C9BD51CB8691C005765DB /* Project object */;
+}
